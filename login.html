@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RCB</title>
+</head>
+<body>
+    <div class="bodyLogin">
+
+        <div class="avant">
+            <img src="Images/logo6_11_1292.png" width="150px" height="150px" alt="">
+            <aside>
+                <h1>RADIO COMMUNAUTAIRE DE BOMA</h1>
+                <p>Radio pour le peuple Bomatracien</p>
+            </aside>
+            <div class="opening">
+                <div id="open" class="open" onclick="opening() ">
+                    <img src="Images/icon-hamburger.svg" alt="">
+                </div>
+    
+            </div>
+        </div>
+        
+        <div class="cont">
+            <div id="menu" class="menu">
+                
+                <div class="entete">
+                    <div id="close" class="close" onclick="closing()">
+                        <img src="Images/icon-close.svg" alt="">
+                    </div>
+                    <div class="tof">
+                        <img src="Images/FXYN7326.png" width="100px" height="100px" alt="">
+                        <div class="user">
+                            <h3>Jordache Nzita</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="navBeur">
+                    <nav>
+                        <ul>
+                            <a href="index.html"><li>Acceuil</li></a>
+                            <a href=""><li>Se connecter</li></a>
+                            <a href=""><li>Nouvelles</li></a>
+                            <a href=""><li>Programmes</li></a>
+                            <a href=""><li>A propos</li></a>
+                            <a href="personel.html"><li>Personnels</li></a>
+                            <a href=""><li>Contact</li></a>
+                        </ul>
+                    </nav>
+                </div>
+                <p>La RCB est la meuilleure</p>
+            </div>
+            <div class="viss">
+              
+                <header id="header">
+                    <div class="nav">
+                        <nav class="navi">
+                            <ul>
+                                <a id="acceuil" href="index.html"><li>Acceuil</li></a>
+                                <a href=""><li>Se connecter</li></a>
+                                <a href=""><li>Nouvelles</li></a>
+                                <a href=""><li>Programmes</li></a>
+                                <a href=""><li>A propos</li></a>
+                                <a href="personel.html"><li>Personnels</li></a>
+                                <a href=""><li>Contact</li></a>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+                   <!-- <div class="dispoLogin"> -->
+                <div id="indi" class="indi">
+            
+                    <h1>RCB <span class="sur">sur</span><br> 105.2 <span class="sur">Mhz</span> </h1>
+                    <h3>Radio pour le peuple </h3>
+                    <p>Nous faisons l'effort de servir la communautée car c'est notre priorité</p><br>
+                    <a href="" class="dev" id="dev"> <span id="span"> </span>Devenir auditeur Fidel  </a> 
+                    
+                </div> 
+                <div class="contenaires">
+                    <div id="connection" class="connexion">
+                        <div class="connecting">
+                            <div class="fontConnect">
+                                <img src="Images/bg-pattern-card.svg" alt="">
+                                <img id="avatarConnexion" class="img" src="Images/FXYN7326.png" width="100px" height="100px" alt="">
+                                <div class="fontBlanc">
+                                    <H4>Jordache Nzita</H4>
+                                </div>
+                            </div>
+                            <p>Est ce vous ?</p>
+                            <span id="confirm"> Oui c'est moi</span>
+                            <span id="nonConfirm"> Non ce n'est pas moi</span>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <form id="fm" action="">
+                            <div class="logDiv">
+                                <div class="avatarLogin">
+                                    <img src="Images/FXYN7326.png" width="100px" height="100px" alt="">
+                                </div>
+                                <div class="choix">
+                                    <span id="email">E-mail</span>
+                                    <span id="telephone">Telephone</span>
+                                </div>
+                                <input type="tel" name="tel" id="tel" placeholder="E-mail">
+                                <input type="password" name="password" id="password" placeholder="Password">
+                                <p>Mon de passe oublié ?</p>
+                                <button type="submit" >Se connecter</button>
+                            </div>
+                            <div class="inscrire">
+                                <span class="ins" id="dev"><span id="span"></span> Devenir Auditeur Fidel</span>
+                            </div>
+                        </form>
+                    </div>     
+                    <div id="inscript" class="inscripAudi">
+
+                        <div class="form">
+                            <form id="fom" action="">
+                                <div class="logDiv">
+                                    <div class="avatarLogin" id="avatarLogin">
+                                        <div class="ava">
+                                            <input type="file" name="imgInscri" id="imgInscri" onchange="ajoutImage(this);">
+                                            <!-- <img src="" id="imagem" width="100px" heigt="80%"/> -->
+                                        </div>
+                            
+                                        <!-- <input type="image" src="" alt=""> -->
+                                        <!-- <img src="Images/FXYN7326.png" width="100px" height="100px" alt=""> -->
+                                    </div>
+                                    <input type="tel" name="nom" id="nom" placeholder="Nom Complet">
+                                    <input type="text" name="electronicAdress" id="electronicAdress" placeholder="E-mail ou Telephone">
+                                    <!-- <input type="text" name="prenom" id="prenom" placeholder="Prenom"> -->
+                                    <!-- <input type="text" name="ville" id="ville" placeholder="Ville de residence"> -->
+                                    <input type="text" name="adress" id="address" placeholder="Ex:Av.matond.32 Tshutuzi.Boma">
+                                    <select name="sexe" id="sexe" title="Quel est votre sexe ?">
+                                        <option value="">Masculin</option>
+                                        <option value="">Feminin</option>
+                                    </select>
+                                    <select name="trancheAge" id="trancheAge" title="Quel est votre tranche d'age ?">
+                                        <option value="">< a 18 ans</option>
+                                        <option value="">18 - 30 ans</option>
+                                        <option value="">31 a 45 ans</option>
+                                        <option value="">45 a 60 ans</option>
+                                        <option value="">> a 60 ans</option>
+                                    </select>
+                                    <input type="password" name="password" id="password" placeholder="Password">
+                                    <!-- <input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="Password Confirm"> -->
+                                    <span  id="submit" onclick="confirmation()" >S'inscrire</span>
+                                </div>
+                            </form>
+                        </div>               
+                    </div>
+                </div>
+                 <!-- </div> -->
+            </div>
+        </div>
+       <footer>
+            <div class="de">
+                <H3>Radio communautaire de Boma</H3>
+                <div class="lien">
+                   <a href=""><img src="Images/icon-facebook.svg" alt=""></a> 
+                    <a href=""><img src="Images/icon-instagram.svg" alt=""></a>
+                   <a href=""><img src="Images/icon-pinterest.svg" alt=""></a> 
+                    <a href=""><img src="Images/icon-twitter.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="navem">
+                <div class="navi">
+                    <nav>
+                        <ul>
+                            <a href="index.html"><li>Acceuil</li></a>
+                            <a href=""><li>Se connecter</li></a>
+                            <a href=""><li>Nouvelles</li></a>
+                            <a href=""><li>Programmes</li></a>
+                            <a href=""><li>A propos</li></a>
+                            <a href="personel.html"><li>Personnels</li></a>
+                            <a href=""><li>Contact</li></a>
+                        </ul>
+                    </nav>
+                </div>
+                <p>@Dash Dev This Web site </p>
+            </div>
+       </footer> 
+    </div>
+   <script src="script.js" async></script>
+</body>
+</html>
